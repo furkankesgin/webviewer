@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
     @IBOutlet var webview: WKWebView!
     override func viewDidLoad() {
-        let url = URL(string: "http://52.236.128.206:5000/")!
+        let url = URL(string: "http://enterUrl")!
         webView.load(URLRequest(url: url))
     }
 
